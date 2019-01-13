@@ -1,9 +1,11 @@
 ---
 ---
 
-$bottom-top-padding: 15px;
+$bottom-top-padding: 100px;
 $theme: (
-  light: #f8f9fa
+  light: #f8f9fa,
+  dark: #2e3842,
+  text-light: #fff
 );
 
 // Header
@@ -31,8 +33,20 @@ $theme: (
   font-size: 13px;
 }
 
+// Banner
+.banner {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
 // Content Styling
 .content-section {
-  padding-top: $bottom-top-padding;
-  padding-bottom: $bottom-top-padding;
+  padding: $bottom-top-padding 0;
+}
+
+.content-section:nth-child(2n) {
+  background-color: map-get($theme, dark);
+  color: map-get($theme, text-light);
 }
