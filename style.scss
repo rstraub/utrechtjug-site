@@ -6,9 +6,11 @@
 }
 
 .site-footer {
+  $footer-padding: 25px;
   background-color: #f8f9fa;
   text-align: center;
-  padding: 50px 0;
+  padding-top: $footer-padding;
+  padding-bottom: $footer-padding;
 }
 
 .footer-description {
