@@ -17,8 +17,8 @@ title: Utrecht JUG
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Community site for the official Utrecht Java User Group
-baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://rstraub.github.io/utrechtjug-site' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/utrechtjug-site' # the subpath of your site, e.g. /blog
+url: 'https://rstraub.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: jekyll
 
