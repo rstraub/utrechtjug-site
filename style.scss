@@ -44,6 +44,19 @@ $theme: (
   text-align: center;
   display: flex;
   align-items: center;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/banner.jpeg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: map-get($theme, text-light);
+
+  &__header {
+    border-bottom: 2px solid white;
+    padding: 25px 0;
+    max-width: 40%;
+    margin: 0 auto 25px auto;
+  }
 }
 
 // Content Styling
