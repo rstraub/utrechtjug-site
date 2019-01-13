@@ -62,12 +62,12 @@ $theme: (
 .content-section {
   padding: $bottom-top-padding 0;
 
-  &:nth-child(2n) {
+  &:nth-child(2n-1) {
     background-color: map-get($theme, dark);
     color: map-get($theme, text-light);
   }
 
-  &:nth-child(3) {
+  &:nth-child(4) {
     background-color: #21b2a6;
     color: map-get($theme, text-light);
   }
